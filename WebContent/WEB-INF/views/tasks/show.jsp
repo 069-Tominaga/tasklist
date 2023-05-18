@@ -6,7 +6,7 @@
         <c:choose>
             <c:when test="${task != null}">
 
-                <h2>id : ${message.id} タスク詳細ページ</h2>
+                <h2>id : ${task.id} タスク詳細ページ</h2>
 
                 <table>
                     <tbody>
